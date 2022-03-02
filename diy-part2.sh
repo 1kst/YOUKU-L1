@@ -13,10 +13,10 @@
 # 更改默认IP
 sed -i 's/192.168.1.1/192.168.5.1/g' package/base-files/files/bin/config_generate
 # 删除原主题
-rm -rf package/lean/luci-theme-argon
+#rm -rf package/lean/luci-theme-argon
 rm -rf package/lean/luci-theme-bootstrap
 # 增加主题
-git clone https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
+#git clone https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
 # 增加主题
 git clone https://github.com/YL2209/luci-theme-argon_armygreen.git package/lean/luci-theme-argon_armygreen
 # 去除默认主题：
