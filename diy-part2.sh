@@ -18,9 +18,9 @@ rm -rf package/lean/luci-theme-bootstrap
 # 增加主题
 #git clone https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
 # 增加主题
-git clone https://github.com/YL2209/luci-theme-argon_armygreen.git package/lean/luci-theme-argon_armygreen
+#git clone https://github.com/YL2209/luci-theme-argon_armygreen.git package/lean/luci-theme-argon_armygreen
 # 增加主题设置
-git clone https://github.com/jerrykuku/luci-app-argon-config
+git clone https://github.com/jerrykuku/luci-app-argon-config.git package/lean/luci-app-argon-config
 # 去除默认主题：
 sed -i '/set luci.main.mediaurlbase=\/luci-static\/bootstrap/d' feeds/luci/themes/luci-theme-bootstrap/root/etc/uci-defaults/30_luci-theme-bootstrap
 # 设置默认主题为luci-theme-argon/
