@@ -25,3 +25,7 @@ git clone https://github.com/jerrykuku/luci-app-argon-config.git package/lean/lu
 sed -i '/set luci.main.mediaurlbase=\/luci-static\/bootstrap/d' feeds/luci/themes/luci-theme-bootstrap/root/etc/uci-defaults/30_luci-theme-bootstrap
 # 设置默认主题为luci-theme-argon/
 sed -i 's/luci-theme-bootstrap/luci-theme-argon/' feeds/luci/collections/luci/Makefile
+
+
+# 测试增加pp
+git clone https://github.com/wiwizcom/WiFiPortal.git
